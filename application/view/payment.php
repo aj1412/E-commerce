@@ -27,7 +27,7 @@ if (! empty($cartItem)) {
 		            curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 		            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 		            curl_setopt($ch, CURLOPT_HTTPHEADER,
-		            array("X-Api-Key:test_dec9f165fce271bda0c5e10c247", "X-Auth-Token:test_75248778c79a139a012aab46e10"));
+		            array("X-Api-Key:'your Key'", "X-Auth-Token:'your token_name(token)'"));
 		           	
 		           	 $payload = Array(
 		                'purpose' => substr('Alok Online Book Store',0,29),
